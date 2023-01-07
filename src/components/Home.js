@@ -5,8 +5,8 @@ import SearchCocktal from './SearchCocktal'
 const Home = () => {
   return (
     <main>
-      <CocktailList />
       <SearchCocktal />
+      <CocktailList />
     </main>
   )
 }
