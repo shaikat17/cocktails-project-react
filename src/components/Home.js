@@ -1,8 +1,13 @@
 import React from 'react'
+import CocktailList from './CocktailList'
+import SearchCocktal from './SearchCocktal'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <main>
+      <CocktailList />
+      <SearchCocktal />
+    </main>
   )
 }
 
